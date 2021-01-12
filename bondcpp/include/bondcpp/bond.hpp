@@ -58,7 +58,7 @@ namespace bond
  * another process and be notified when it dies.  In turn, it will be
  * notified when you die.
  */
-class Bond
+class RCLCPP_EXPORT Bond
 {
 public:
   /** \brief Constructs a bond, but does not connect
